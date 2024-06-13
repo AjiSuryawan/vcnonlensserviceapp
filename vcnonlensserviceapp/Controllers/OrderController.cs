@@ -30,7 +30,7 @@ namespace vcnonlensserviceapp.Controllers
 
             // Create directory and file path
             var directoryPath = Path.Combine(Directory.GetCurrentDirectory(), "Responses", response.CompanyId);
-            var filePath = Path.Combine(directoryPath, $"{response.SessionId_}.json");
+            var filePath = Path.Combine(directoryPath, $"{response.Filename}");
 
             // Check if the file already exists
             if (System.IO.File.Exists(filePath))
