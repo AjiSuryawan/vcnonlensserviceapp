@@ -41,11 +41,9 @@ namespace vcnonlensserviceapp.Controllers
             // Ensure the directory exists
             Directory.CreateDirectory(directoryPath);
 
-            // Serialize the response object to JSON
-            var jsonResponse = JsonConvert.SerializeObject(response, Formatting.Indented);
 
             // Write the JSON response to the file
-            System.IO.File.WriteAllText(filePath, jsonResponse, Encoding.UTF8);
+            System.IO.File.WriteAllText(filePath, orderRequest.Filecontent, Encoding.UTF8);
 
             return Ok(response);
         }

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<orderRequest>
+<header>
+	<lmsType>VL</lmsType>
+	<orderType>ORDER</orderType>
+	<typeOrder>PAIR</typeOrder>
+	<realtime>0</realtime>
+	<serverUrl>http://51.116.174.45:94/api/pairorderserviceconv/postData</serverUrl>
+	<serverEndpoint></serverEndpoint>
+	<corporationCode>EQ35</corporationCode>
+	<realtimeGLVS>0</realtimeGLVS>
+	<version>1.0</version>
+	<vlResponse>0</vlResponse>
+	<orderRT>8</orderRT>
+</header>
+<order>
+	<customerAccount>439639</customerAccount>
+	<customerGroup></customerGroup>
+	<organizationNumber></organizationNumber>
+	<taxNumber></taxNumber>
+	<backOrder>N</backOrder>
+	<partialShipment>N</partialShipment>
+	<reference1>00996555</reference1>
+<jobInstructions>
+</jobInstructions>
+<leftLens>
+	<addition></addition>
+	<axis>090</axis>
+	<cylinder>0.75</cylinder>
+	<sphere>2.5</sphere>
+<specialInstructions>
+<specialInstruction>
+	<serviceTreatment>ED70</serviceTreatment>
+</specialInstruction>
+</specialInstructions>
+	<ediColor></ediColor>
+	<ediLens>150SF</ediLens>
+<deliveryNote>
+	<commercialLensName></commercialLensName>
+	<commercialColorName></commercialColorName>
+	<commercialCoatingName></commercialCoatingName>
+</deliveryNote>
+</leftLens>
+	<orderId>00996555</orderId>
+	<patientName>COLVEZ JEAN</patientName>
+<rightLens>
+	<addition></addition>
+	<axis></axis>
+	<cylinder>0.0</cylinder>
+	<sphere>0.0</sphere>
+<specialInstructions>
+<specialInstruction>
+	<serviceTreatment>ED70</serviceTreatment>
+</specialInstruction>
+</specialInstructions>
+	<ediColor></ediColor>
+	<ediLens>150SF</ediLens>
+<deliveryNote>
+	<commercialLensName></commercialLensName>
+	<commercialColorName></commercialColorName>
+	<commercialCoatingName></commercialCoatingName>
+</deliveryNote>
+</rightLens>
+	<shipToAccount>439639</shipToAccount>
+	<originalOrder></originalOrder>
+	<originalReference></originalReference>
+	<reference2>00996555</reference2>
+	<reference3></reference3>
+	<reference4></reference4>
+<shippingDetails>
+<shipTo>
+	<customerCode>439639</customerCode>
+</shipTo>
+<soldTo>
+	<customerCode>439639</customerCode>
+</soldTo>
+<transporter>
+	<sortCode1></sortCode1>
+	<sortCode2></sortCode2>
+</transporter>
+</shippingDetails>
+</order>
+</orderRequest>
